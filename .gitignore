@@ -1,0 +1,13 @@
+node_modules
+artifacts
+cache
+
+contracts/*
+artifacts-circuits/*
+proof/*
+
+*.swp
+*.wtns
+*.zkey
+
+verification_key.json
