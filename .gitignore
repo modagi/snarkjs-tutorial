@@ -2,9 +2,12 @@ node_modules
 artifacts
 cache
 
-contracts/*
-artifacts-circuits/*
-proof/*
+proof/*.json
+
+*.sol
+*.r1cs
+*.sym
+*.wasm
 
 *.swp
 *.wtns
