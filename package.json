@@ -7,6 +7,7 @@
     "build:contracts": "npx hardhat compile",
     "generate:calldata": "npx snarkjs zkey export soliditycalldata ./proof/public.json ./proof/proof.json",
     "generate:contracts": "npx snarkjs zkey export solidityverifier ./setup/circuit_final.zkey contracts/verifier.sol",
+    "install": "mkdir contracts && mkdir proof && mkdir artifacts-circuits",
     "prove": "./scripts/prove.sh",
     "setup": "./scripts/setup.sh",
     "show": "npx snarkjs r1cs info artifacts-circuits/circuit.r1cs",

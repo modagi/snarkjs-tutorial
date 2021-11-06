@@ -5,7 +5,7 @@ This tutorial is about how to use circom and snarkjs, not for understanding it, 
 ## Install
 
 ```bash
-yarn
+yarn install
 ```
 
 ## Compile the circuit
